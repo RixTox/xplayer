@@ -250,8 +250,8 @@
 			thisObj.set(thisArgs.options.target);
 
 			var json = thisObj.options.json;
-			if(json === 'string' && json.length)
-				loadJSON(json);
+			if(typeof json === 'string' && json.length)
+				thisObj.loadJSON(json);
 		},
 
 		set: function(target) {

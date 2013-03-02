@@ -10,6 +10,16 @@
 	},
 
 	{
+		"album": "The 2nd Law",
+		"artist": "Muse",
+		"thumbnail": "http://img.xiami.com/images/artist/7/12639676191207_1.jpg",
+		"reference_title": "Xiami",
+		"reference_url": "http://www.xiami.com/song/1771160552",
+		"title": "Supermacy",
+		"url": "http://data4.5sing.com/T199E5BXWT1R47IVrK.mp3"
+	},
+
+	{
 		"title": "ルーズレイン",
 		"album": "妖精大戦争",
 		"artist": "Jun.A",
@@ -315,15 +325,5 @@
 		"title": "YEAR OF THE BAD DRAGON",
 		"reference_url": "http://localhost/track/year-of-the-bad-dragon",
 		"url": "http://popplers5.bandcamp.com/download/track?enc=mp3-128&fsig=ef14c8d73f3b65c27c17d9380f421939&id=1322547453&stream=1&ts=1362127195.0"
-	},
-
-	{
-		"album": "The 2nd Law",
-		"artist": "Muse",
-		"thumbnail": "http://img.xiami.com/images/artist/7/12639676191207_1.jpg",
-		"reference_title": "Xiami",
-		"reference_url": "http://www.xiami.com/song/1771160552",
-		"title": "Supermacy",
-		"url": "http://data4.5sing.com/T199E5BXWT1R47IVrK.mp3"
 	}
 ]
