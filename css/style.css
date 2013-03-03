@@ -1,234 +1,25 @@
-/*
-========== Style Sheet of xPlayer ===========
-*/
-@import url(http://fonts.googleapis.com/css?family=Poiret+One|Julius+Sans+One);
-
 body, html {
-  font: 13px "PT Sans", 'Trebuchet MS', Arial, Helvetica, sans-serif;
-  background: url(../img/bcakground.png);
-  text-align: center;
+	font: 13px "PT Sans", 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	background: url(../img/bcakground.png);
+	text-align: center;
 }
 
 h1.header {
-  margin: 10px;
-  font-family: 'Julius Sans One';
-  text-shadow: 2px 3px 3px rgba(0,0,0,.3);
-  font-size: 4em;
+	margin: 10px;
+	font-family: 'Julius Sans One';
+	text-shadow: 2px 3px 3px rgba(0,0,0,.3);
+	font-size: 4em;
 }
 
 h1 small {
-  font-size: 2em;
+	font-size: 2em;
 }
 
 .footer {
-  color: #EEE;
-  margin-top: 10px;
-  width: 100%;
-  position: fixed;
-  bottom: 0;
-  background-color: rgba(0,0,0,.75);
-}
-
-.xPlayer {
-  text-align: left;
-  margin-left: auto;
-  margin-right: auto;
-  font-family: FontAwesome;
-	width: 300px;
-	color: #ddd;
-	background: rgba(0,0,0,0.8);
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  -webkit-transition: right .25s ease;
-     -moz-transition: right .25s ease;
-      -ms-transition: right .25s ease;
-       -o-transition: right .25s ease;
-          transition: right .25s ease;
-  box-shadow: 0 0 50px 8px rgba(0,0,0,.25);
-}
-
-.xPlayer-info {
-  height: 100px;
-  position: relative;
-}
-
-.xPlayer-info-thumbnail {
-  width: 100px;
-  height: 100px;
-  position: absolute;
-}
-
-.xPlayer-info-inner {
-  padding: 5px 5px 5px 107px;
-}
-
-.xPlayer-info-text {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-.xPlayer-info-title {
-  font-family: 'Poiret One';
-  font-size: 1.5em;
-  white-space: normal;
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-}
-
-.xPlayer-info-album {
-  font-family: 'Julius Sans One';
-  font-size: 1em;
-}
-
-.xPlayer-info-album:before {
-  content: 'From ';
-  font-size: .7em;
-  font-weight: bold;
-}
-
-.xPlayer-info-artist {
-  font-family: 'Julius Sans One';
-  font-size: 1em;
-}
-
-.xPlayer-info-artist:before {
-  content: 'By ';
-  font-size: .7em;
-  font-weight: bold;
-  
-}
-
-.xPlayer-info-source {
-  position: absolute;
-  right: 10px;
-  bottom: 5px;
-}
-
-.xPlayer-info-source a {
-  font-family: 'Julius Sans One';
-  color: #aaa;
-  font-size: 0.7em;
-}
-
-.xPlayer-controls {
-  line-height: 30px;
-  text-align: center;
-  padding: 3px 0;
-}
-
-.xPlayer-controls>li {
-  display: inline-block;
-  width: 20%;
-  cursor: pointer;
-  -webkit-transition: text-shadow 0.5s, color 0.2s;
-  -moz-transition:    text-shadow 0.5s, color 0.2s;
-  -o-transition:      text-shadow 0.5s, color 0.2s;
-  -ms-transition:     text-shadow 0.5s, color 0.2s;
-  transition:         text-shadow 0.5s, color 0.2s;
-}
-
-.xPlayer-controls>li:hover {
-  color: #f3f3f3;
-  text-shadow: 0px 0px 20px rgba(255, 255, 255, 0.8);
-}
-
-.xPlayer-progress-container {
-  margin-top: 3px;
-  height: 20px;
-  margin-left: 10px;
-  margin-right: 10px;
-  width: 280px;
-}
-
-.xPlayer-progress-bar {
-  height: 8px;
-  background: rgba(240, 240, 240, 0.5);
-  max-width: 100%;
-}
-
-.xPlayer-progress-text {
-  color: #ddd;
-  position: relative;
-  float: right;
-  bottom: 1px;
-  font-size: 9px;
-  cursor: default;
-}
-
-.xPlayer-playlist-container {
-	max-height: 400px;
-  min-height: 200px;
-	overflow-x: hidden;
-	overflow-y: auto;
-	
-  line-height: 21px;
-  text-indent: 10px;
-  font-size: 11px;
-  display: block;
-}
-
-.xPlayer-playlist-container::-webkit-scrollbar {
-	width: 10px;
-	overflow: visible;
-}
-
-..xPlayer-playlist-container::-webkit-scrollbar-button {
-	height: 0;
-	width: 0;
-}
-
-.xPlayer-playlist-container::-webkit-scrollbar-track {
-	background-color: transparent;
-}
-
-.xPlayer-playlist-container::-webkit-scrollbar-thumb {
-    background-color: rgba(0,0,0,.2);
-    min-height: 28px;
-    padding: 100px 0 0;
-    box-shadow: inset 1px 1px 0 rgba(0,0,0,.1),inset -1px -1px 0 rgba(0,0,0,.07);
-}
- 
-.xPlayer-playlist-container::-webkit-scrollbar-thumb:hover {
-    background-color: rgba(0,0,0,.15);
-    box-shadow: inset 1px 1px 1px rgba(0,0,0,.15);
-}
- 
-.xPlayer-playlist-container::-webkit-scrollbar-thumb:active {
-    background-color: rgba(0,0,0,0.2);
-    box-shadow: inset 1px 1px 1px rgba(0,0,0,.2);
-}
- 
-.xPlayer-playlist-container::-webkit-scrollbar-corner {
-    background: transparent;
-}
-
-.xPlayer-playlist>li {
-  cursor: pointer;
-  border-top: 1px solid rgba(0, 0, 0, 0.2);
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  -webkit-transition: text-shadow 0.5s, background 0.2s;
-  -moz-transition:    text-shadow 0.5s, background 0.2s;
-  -o-transition:      text-shadow 0.5s, background 0.2s;
-  -ms-transition:     text-shadow 0.5s, background 0.2s;
-  transition:         text-shadow 0.5s, background 0.2s;
-}
-
-.xPlayer-playlist>li:hover {
-  color: #fff;
-  text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.7);
-  background-color: rgba(0, 0, 0, 0.55);
-}
-
-.xPlayer-current-track {
-  background-color: rgba(200, 200, 200, 0.2) !important;
-}
-
-.hover {
-  background-color: rgba(200, 200, 200, 0.2) !important;
+	color: #EEE;
+	margin-top: 10px;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	background-color: rgba(0,0,0,.75);
 }
