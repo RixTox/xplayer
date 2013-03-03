@@ -40,6 +40,26 @@
 	},
 
 	{
+		"album": "The Very Best Of Chopin",
+		"artist": "Chopin",
+		"thumbnail": "http://ecx.images-amazon.com/images/I/516b4-UYvAL.jpg?dur=367",
+		"reference_title": "",
+		"reference_url": "",
+		"title": "12 Etudes, Op. 10: No. 12 in C minor, \"Revolutionary\"",
+		"url": "http://new-bucket-4f4a12d6.s3.amazonaws.com/Etude%20Op.%2010%20No.%2012%20-%20Revolutionary.mp3"
+	},
+
+	{
+		"album": "The Very Best Of Chopin",
+		"artist": "Chopin",
+		"thumbnail": "http://ecx.images-amazon.com/images/I/516b4-UYvAL.jpg?dur=367",
+		"reference_title": "",
+		"reference_url": "",
+		"title": "Scherzo No. 2 in B-flat minor, Op. 31",
+		"url": "http://new-bucket-4f4a12d6.s3.amazonaws.com/Scherzo%20No.%202.mp3"
+	},
+
+	{
 		"album": "Smal Nästa",
 		"artist": "Jackal Queenston",
 		"thumbnail": "http://f0.bcbits.com/z/23/04/230487713-1.png",
