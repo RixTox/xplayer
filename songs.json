@@ -1,4 +1,24 @@
-[	
+[
+
+	{
+		"title": "ルーズレイン",
+		"album": "妖精大戦争",
+		"artist": "Jun.A",
+		"reference_title": "5sing",
+		"reference_url": "http://bz.5sing.com/1625134.html",
+		"url": "https://new-bucket-4f4a12d6.s3.amazonaws.com/%E3%83%AB%E3%83%BC%E3%82%BA%E3%83%AC%E3%82%A4%E3%83%B3.mp3"
+	},
+	
+	{
+		"title": "너 때문에 미쳐",
+		"album": "Breaking Heart",
+		"artist": "T-ara",
+		"thumbnail": "http://img.xiami.com/images/artistpic/98/60298/1259912559_Ktry_4.jpg",
+		"reference_title": "Xiami",
+		"reference_url": "http://www.xiami.com/song/detail/id/1769379581",
+		"url": "http://clip2net.com/clip/m208613/1362291632-93955-7614kb.mp3"
+	},
+
 	{
 		"title": "Till The World Ends & Hold It Against Me",
 		"album": "Britney Spears Cover Mashup",
@@ -6,7 +26,7 @@
 		"thumbnail": "http://cdn2-b.examiner.com/sites/default/files/styles/image_content_width/hash/89/87/898793a5697275dc7d12b7697d92d947.jpg",
 		"reference_title": "5sing",
 		"reference_url": "http://fc.5sing.com/5277865.html",
-		"url": "http://data6.5sing.com/T1iEWCByJT1R47IVrK.mp3"
+		"url": "https://new-bucket-4f4a12d6.s3.amazonaws.com/Till%20The%20World%20Ends%20&%20Hold%20It%20Against%20Me.mp3"
 	},
 
 	{
@@ -16,16 +36,7 @@
 		"reference_title": "Xiami",
 		"reference_url": "http://www.xiami.com/song/1771160552",
 		"title": "Supermacy",
-		"url": "http://data4.5sing.com/T199E5BXWT1R47IVrK.mp3"
-	},
-
-	{
-		"title": "ルーズレイン",
-		"album": "妖精大戦争",
-		"artist": "Jun.A",
-		"reference_title": "5sing",
-		"reference_url": "http://bz.5sing.com/1625134.html",
-		"url": "http://data4.5sing.com/T1u4ZmByAT1R47IVrK.mp3"
+		"url": "https://new-bucket-4f4a12d6.s3.amazonaws.com/Supremacy.mp3"
 	},
 
 	{
