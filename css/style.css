@@ -15,6 +15,11 @@ h1 small {
 	font-size: 2em;
 }
 
+.xPlayer {
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .footer {
 	color: #EEE;
 	margin-top: 10px;
