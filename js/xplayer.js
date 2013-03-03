@@ -164,13 +164,7 @@
 			},
 			mode: {
 				click: function(e) {
-					var modes = [];
-					for(var key in playmodes)
-						modes.push(key);
-					var nextIndex = modes.indexOf(thisObj.options.playmode) + 1;
-					if(nextIndex >= modes.length)
-						nextIndex = 0;
-					thisObj.setPlayMode(modes[nextIndex]);
+					thisObj.nextPlayMode();
 				}
 			},
 			stop: {
@@ -352,7 +346,7 @@
 
 		play: function(trackIndex) {
 			if(typeof trackIndex != "undefined") {
-				if(trackIndex >= 0) {
+				if(trackIndex >= 0 && trackIndex < thisObj.trackList.length) {
 					thisObj.load(trackIndex);
 				} else {
 					return thisObj.stop();
@@ -440,6 +434,16 @@
 				case 'loopone':
 					return currentTrackIndex;
 			}
+		},
+
+		nextPlayMode: function() {
+			var modes = [];
+			for(var key in playmodes)
+				modes.push(key);
+			var nextIndex = modes.indexOf(thisObj.options.playmode) + 1;
+			if(nextIndex >= modes.length)
+				nextIndex = 0;
+			thisObj.setPlayMode(modes[nextIndex]);
 		},
 
 		setPlayMode: function(arg) {
